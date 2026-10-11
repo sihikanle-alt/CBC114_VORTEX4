@@ -1,0 +1,1 @@
+Final-year CS student. Built projects in Python using pandas, numpy, matplotlib and sklearn. Know basic SQL from coursework. Completed a TensorFlow image classifier. Familiar with Git and Streamlit.

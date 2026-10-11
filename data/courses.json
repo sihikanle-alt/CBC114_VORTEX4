@@ -1,0 +1,213 @@
+{
+  "Python": [
+    {"title": "Scientific Computing with Python", "provider": "freeCodeCamp", "url": "https://www.freecodecamp.org/learn/scientific-computing-with-python/", "type": "course", "est_hours": 25, "level": "beginner"},
+    {"title": "Python for Everybody Specialization", "provider": "Coursera (Univ of Michigan)", "url": "https://www.coursera.org/specializations/python", "type": "course", "est_hours": 40, "level": "intermediate"},
+    {"title": "Official Python Documentation & Tutorial", "provider": "Python Software Foundation", "url": "https://docs.python.org/3/tutorial/", "type": "official docs", "est_hours": 15, "level": "advanced"}
+  ],
+  "Statistics": [
+    {"title": "Introduction to Probability and Statistics", "provider": "MIT OpenCourseWare", "url": "https://ocw.mit.edu/courses/18-05-introduction-to-probability-and-statistics-spring-2014/", "type": "course", "est_hours": 35, "level": "intermediate"},
+    {"title": "Statistics and Probability Track", "provider": "Khan Academy", "url": "https://www.khanacademy.org/math/statistics-probability", "type": "course", "est_hours": 20, "level": "beginner"},
+    {"title": "Think Stats: Exploratory Data Analysis in Python", "provider": "Green Tea Press (Allen Downey)", "url": "https://greenteapress.com/wp/think-stats-2e/", "type": "book", "est_hours": 25, "level": "intermediate"}
+  ],
+  "scikit-learn": [
+    {"title": "Intro to Machine Learning with scikit-learn", "provider": "Kaggle Learn", "url": "https://www.kaggle.com/learn/intro-to-machine-learning", "type": "course", "est_hours": 10, "level": "beginner"},
+    {"title": "Scikit-Learn User Guide & Real-World Tutorials", "provider": "Official Docs", "url": "https://scikit-learn.org/stable/user_guide.html", "type": "official docs", "est_hours": 20, "level": "intermediate"},
+    {"title": "Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow", "provider": "O'Reilly (Aurélien Géron)", "url": "https://www.oreilly.com/library/view/hands-on-machine-learning/9781098125967/", "type": "book", "est_hours": 45, "level": "advanced"}
+  ],
+  "SQL": [
+    {"title": "Intro to SQL & Advanced SQL", "provider": "Kaggle Learn", "url": "https://www.kaggle.com/learn/intro-to-sql", "type": "course", "est_hours": 12, "level": "beginner"},
+    {"title": "SQL Tutorial & Interactive Practice", "provider": "Mode Analytics", "url": "https://mode.com/sql-tutorial/", "type": "course", "est_hours": 18, "level": "intermediate"},
+    {"title": "PostgreSQL Official Tutorial", "provider": "PostgreSQL Global Development Group", "url": "https://www.postgresql.org/docs/current/tutorial.html", "type": "official docs", "est_hours": 15, "level": "intermediate"}
+  ],
+  "Data Visualization": [
+    {"title": "Data Visualization Micro-Course", "provider": "Kaggle Learn", "url": "https://www.kaggle.com/learn/data-visualization", "type": "course", "est_hours": 8, "level": "beginner"},
+    {"title": "Storytelling with Data: A Data Visualization Guide", "provider": "Wiley (Cole Nussbaumer Knaflic)", "url": "https://www.storytellingwithdata.com/books", "type": "book", "est_hours": 15, "level": "intermediate"},
+    {"title": "Interactive Data Visualization with Plotly", "provider": "Plotly Official Docs", "url": "https://plotly.com/python/", "type": "official docs", "est_hours": 12, "level": "intermediate"}
+  ],
+  "matplotlib": [
+    {"title": "Matplotlib Visual Tutorial", "provider": "Official Docs", "url": "https://matplotlib.org/stable/tutorials/index.html", "type": "official docs", "est_hours": 10, "level": "beginner"},
+    {"title": "Python Plotting with Matplotlib", "provider": "Real Python", "url": "https://realpython.com/python-matplotlib-guide/", "type": "course", "est_hours": 8, "level": "intermediate"}
+  ],
+  "Deep Learning": [
+    {"title": "Practical Deep Learning for Coders", "provider": "fast.ai", "url": "https://course.fast.ai/", "type": "course", "est_hours": 50, "level": "intermediate"},
+    {"title": "Deep Learning Specialization", "provider": "Coursera (DeepLearning.AI)", "url": "https://www.coursera.org/specializations/deep-learning", "type": "course", "est_hours": 60, "level": "intermediate"},
+    {"title": "MIT 6.S191: Introduction to Deep Learning", "provider": "MIT OpenCourseWare", "url": "http://introtodeeplearning.com/", "type": "course", "est_hours": 25, "level": "advanced"}
+  ],
+  "PyTorch": [
+    {"title": "Deep Learning with PyTorch: A 60 Minute Blitz", "provider": "PyTorch Official", "url": "https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html", "type": "official docs", "est_hours": 10, "level": "beginner"},
+    {"title": "PyTorch for Deep Learning Bootcamp", "provider": "freeCodeCamp (Daniel Bourke)", "url": "https://www.freecodecamp.org/news/learn-pytorch-for-deep-learning-in-day/", "type": "course", "est_hours": 30, "level": "intermediate"},
+    {"title": "Production PyTorch: TorchScript & Deployment", "provider": "PyTorch Docs", "url": "https://pytorch.org/tutorials/beginner/Intro_to_TorchScript_tutorial.html", "type": "project", "est_hours": 20, "level": "advanced"}
+  ],
+  "TensorFlow": [
+    {"title": "TensorFlow 2.0 Complete Course", "provider": "freeCodeCamp", "url": "https://www.freecodecamp.org/news/tensorflow-course/", "type": "course", "est_hours": 20, "level": "intermediate"},
+    {"title": "TensorFlow Core Tutorials", "provider": "TensorFlow Official", "url": "https://www.tensorflow.org/tutorials", "type": "official docs", "est_hours": 25, "level": "intermediate"}
+  ],
+  "Machine Learning": [
+    {"title": "Machine Learning Specialization", "provider": "Coursera (Stanford & DeepLearning.AI)", "url": "https://www.coursera.org/specializations/machine-learning-introduction", "type": "course", "est_hours": 45, "level": "intermediate"},
+    {"title": "Machine Learning Crash Course", "provider": "Google Developers", "url": "https://developers.google.com/machine-learning/crash-course", "type": "course", "est_hours": 20, "level": "beginner"},
+    {"title": "Kaggle Competitions Hands-on ML", "provider": "Kaggle", "url": "https://www.kaggle.com/competitions", "type": "project", "est_hours": 30, "level": "advanced"}
+  ],
+  "Docker": [
+    {"title": "Docker for Beginners", "provider": "freeCodeCamp", "url": "https://www.freecodecamp.org/news/docker-tutorial-for-beginners/", "type": "course", "est_hours": 8, "level": "beginner"},
+    {"title": "Official Docker Get Started Guide", "provider": "Docker Docs", "url": "https://docs.docker.com/get-started/", "type": "official docs", "est_hours": 12, "level": "intermediate"},
+    {"title": "Dockerizing Python and ML Workflows", "provider": "Real Python", "url": "https://realpython.com/docker-continuous-integration/", "type": "project", "est_hours": 10, "level": "intermediate"}
+  ],
+  "Kubernetes": [
+    {"title": "Kubernetes Basics Interactive Tutorial", "provider": "Kubernetes Official", "url": "https://kubernetes.io/docs/tutorials/kubernetes-basics/", "type": "official docs", "est_hours": 15, "level": "beginner"},
+    {"title": "Kubernetes Course for Beginners", "provider": "freeCodeCamp (TechWorld with Nana)", "url": "https://www.freecodecamp.org/news/kubernetes-course-for-beginners/", "type": "course", "est_hours": 18, "level": "intermediate"}
+  ],
+  "MLOps": [
+    {"title": "Made With ML: Production MLOps Course", "provider": "Made With ML (Goku Mohandas)", "url": "https://madewithml.com/", "type": "course", "est_hours": 30, "level": "advanced"},
+    {"title": "Machine Learning Engineering for Production (MLOps)", "provider": "Coursera (DeepLearning.AI)", "url": "https://www.coursera.org/specializations/machine-learning-engineering-for-production-mlops", "type": "course", "est_hours": 40, "level": "intermediate"},
+    {"title": "Full Stack Deep Learning Course", "provider": "FSDL", "url": "https://fullstackdeeplearning.com/", "type": "course", "est_hours": 35, "level": "advanced"}
+  ],
+  "Model Deployment": [
+    {"title": "Deploying Machine Learning Models with FastAPI", "provider": "TestDriven.io", "url": "https://testdriven.io/blog/fastapi-machine-learning/", "type": "project", "est_hours": 12, "level": "intermediate"},
+    {"title": "Serving ML Models in Production with Docker and Triton", "provider": "NVIDIA Developer", "url": "https://developer.nvidia.com/triton-inference-server", "type": "official docs", "est_hours": 20, "level": "advanced"}
+  ],
+  "Data Structures & Algorithms": [
+    {"title": "Algorithms, Part I & II", "provider": "Coursera (Princeton University)", "url": "https://www.coursera.org/learn/algorithms-part1", "type": "course", "est_hours": 50, "level": "intermediate"},
+    {"title": "NeetCode 150 Algorithms Roadmap", "provider": "NeetCode", "url": "https://neetcode.io/roadmap", "type": "project", "est_hours": 40, "level": "intermediate"}
+  ],
+  "Large Language Models": [
+    {"title": "Generative AI with Large Language Models", "provider": "Coursera (DeepLearning.AI & AWS)", "url": "https://www.coursera.org/learn/generative-ai-with-llms", "type": "course", "est_hours": 25, "level": "intermediate"},
+    {"title": "LLM Bootcamp & System Design", "provider": "Full Stack Deep Learning", "url": "https://fullstackdeeplearning.com/llm-bootcamp/", "type": "course", "est_hours": 20, "level": "advanced"},
+    {"title": "Hugging Face LLM Course", "provider": "Hugging Face", "url": "https://huggingface.co/learn/nlp-course", "type": "course", "est_hours": 30, "level": "intermediate"}
+  ],
+  "LangChain": [
+    {"title": "LangChain for LLM Application Development", "provider": "Coursera (DeepLearning.AI)", "url": "https://www.deeplearning.ai/short-courses/langchain-for-llm-application-development/", "type": "course", "est_hours": 8, "level": "intermediate"},
+    {"title": "Official LangChain & LangGraph Documentation", "provider": "LangChain Docs", "url": "https://python.langchain.com/docs/get_started/introduction", "type": "official docs", "est_hours": 15, "level": "advanced"}
+  ],
+  "Vector Databases": [
+    {"title": "Vector Databases: From Embeddings to Applications", "provider": "DeepLearning.AI", "url": "https://www.deeplearning.ai/short-courses/vector-databases-embeddings-applications/", "type": "course", "est_hours": 6, "level": "intermediate"},
+    {"title": "ChromaDB and Pinecone Developer Guides", "provider": "Pinecone Learning Center", "url": "https://www.pinecone.io/learn/vector-database/", "type": "official docs", "est_hours": 12, "level": "intermediate"}
+  ],
+  "RAG (Retrieval-Augmented Generation)": [
+    {"title": "Building Systems with ChatGPT and RAG", "provider": "DeepLearning.AI", "url": "https://www.deeplearning.ai/short-courses/building-systems-with-chatgpt/", "type": "course", "est_hours": 10, "level": "intermediate"},
+    {"title": "Advanced RAG Techniques with LlamaIndex", "provider": "LlamaIndex Tutorials", "url": "https://docs.llamaindex.ai/en/stable/optimizing/production_rag/", "type": "project", "est_hours": 18, "level": "advanced"}
+  ],
+  "Prompt Engineering": [
+    {"title": "ChatGPT Prompt Engineering for Developers", "provider": "DeepLearning.AI (Andrew Ng & Isa Fulford)", "url": "https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/", "type": "course", "est_hours": 5, "level": "beginner"},
+    {"title": "Learn Prompting: Open-Source Prompt Engineering Course", "provider": "LearnPrompting.org", "url": "https://learnprompting.org/", "type": "course", "est_hours": 12, "level": "intermediate"}
+  ],
+  "FastAPI": [
+    {"title": "FastAPI Official Tutorial - User Guide", "provider": "FastAPI Docs", "url": "https://fastapi.tiangolo.com/tutorial/", "type": "official docs", "est_hours": 15, "level": "intermediate"},
+    {"title": "Building Modern APIs with FastAPI", "provider": "freeCodeCamp", "url": "https://www.freecodecamp.org/news/fastapi-quickstart/", "type": "course", "est_hours": 10, "level": "beginner"}
+  ],
+  "Excel": [
+    {"title": "Excel Skills for Business Specialization", "provider": "Coursera (Macquarie University)", "url": "https://www.coursera.org/specializations/excel", "type": "course", "est_hours": 30, "level": "intermediate"},
+    {"title": "Excel Video Training Library", "provider": "Microsoft Support", "url": "https://support.microsoft.com/en-us/excel", "type": "official docs", "est_hours": 10, "level": "beginner"}
+  ],
+  "Tableau": [
+    {"title": "Tableau Free Training Videos", "provider": "Tableau Official", "url": "https://www.tableau.com/learn/training", "type": "official docs", "est_hours": 16, "level": "intermediate"},
+    {"title": "Data Visualization with Tableau Specialization", "provider": "Coursera (UC Davis)", "url": "https://www.coursera.org/specializations/data-visualization", "type": "course", "est_hours": 28, "level": "intermediate"}
+  ],
+  "Communication": [
+    {"title": "Effective Communication for Engineers", "provider": "MIT OpenCourseWare", "url": "https://ocw.mit.edu/courses/comparative-media-studies-writing/", "type": "course", "est_hours": 10, "level": "beginner"},
+    {"title": "Storytelling with Data & Stakeholder Presentation", "provider": "Coursera", "url": "https://www.coursera.org/learn/communicating-business-analytics", "type": "course", "est_hours": 14, "level": "intermediate"}
+  ],
+  "PostgreSQL": [
+    {"title": "PostgreSQL Tutorial for Beginners", "provider": "PostgreSQLTutorial.com", "url": "https://www.postgresqltutorial.com/", "type": "official docs", "est_hours": 18, "level": "intermediate"},
+    {"title": "Database Design and Relational Modeling", "provider": "Coursera (Univ of Michigan)", "url": "https://www.coursera.org/learn/database-design", "type": "course", "est_hours": 20, "level": "intermediate"}
+  ],
+  "REST APIs": [
+    {"title": "REST API Design Best Practices", "provider": "Microsoft Architecture Center", "url": "https://learn.microsoft.com/en-us/azure/architecture/best-practices/api-design", "type": "official docs", "est_hours": 8, "level": "intermediate"},
+    {"title": "Designing Web APIs: Principles for Modern Architecture", "provider": "O'Reilly (Brenda Jin)", "url": "https://www.oreilly.com/library/view/designing-web-apis/9781492026914/", "type": "book", "est_hours": 20, "level": "advanced"}
+  ],
+  "Redis": [
+    {"title": "Redis University - RU101: Introduction to Redis Data Structures", "provider": "Redis University", "url": "https://university.redis.com/courses/ru101/", "type": "course", "est_hours": 12, "level": "intermediate"},
+    {"title": "Official Redis Documentation", "provider": "Redis Docs", "url": "https://redis.io/docs/", "type": "official docs", "est_hours": 10, "level": "beginner"}
+  ],
+  "System Design": [
+    {"title": "System Design Primer", "provider": "GitHub (Donne Martin)", "url": "https://github.com/donnemartin/system-design-primer", "type": "project", "est_hours": 35, "level": "advanced"},
+    {"title": "Designing Data-Intensive Applications", "provider": "O'Reilly (Martin Kleppmann)", "url": "https://dataintensive.net/", "type": "book", "est_hours": 50, "level": "advanced"}
+  ],
+  "JavaScript": [
+    {"title": "JavaScript Algorithms and Data Structures", "provider": "freeCodeCamp", "url": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/", "type": "course", "est_hours": 30, "level": "beginner"},
+    {"title": "The Modern JavaScript Tutorial", "provider": "JavaScript.info", "url": "https://javascript.info/", "type": "book", "est_hours": 40, "level": "intermediate"}
+  ],
+  "React": [
+    {"title": "React Official Documentation: Quick Start & Tutorials", "provider": "React Official Docs", "url": "https://react.dev/learn", "type": "official docs", "est_hours": 20, "level": "beginner"},
+    {"title": "Full Stack Open: Deep Dive Into Modern Web Development", "provider": "University of Helsinki", "url": "https://fullstackopen.com/en/", "type": "course", "est_hours": 60, "level": "intermediate"}
+  ],
+  "Node.js": [
+    {"title": "Node.js Developer Guide & API Reference", "provider": "Node.js Official", "url": "https://nodejs.org/en/learn", "type": "official docs", "est_hours": 18, "level": "intermediate"},
+    {"title": "Node.js and Express Full Course", "provider": "freeCodeCamp", "url": "https://www.freecodecamp.org/news/free-8-hour-node-js-express-course/", "type": "course", "est_hours": 15, "level": "intermediate"}
+  ],
+  "HTML/CSS": [
+    {"title": "Responsive Web Design Certification", "provider": "freeCodeCamp", "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/", "type": "course", "est_hours": 25, "level": "beginner"},
+    {"title": "MDN Web Docs: Learn Web Development", "provider": "Mozilla MDN", "url": "https://developer.mozilla.org/en-US/docs/Learn", "type": "official docs", "est_hours": 30, "level": "intermediate"}
+  ],
+  "Git": [
+    {"title": "Pro Git Book (Free Online)", "provider": "Scott Chacon & Ben Straub", "url": "https://git-scm.com/book/en/v2", "type": "book", "est_hours": 12, "level": "intermediate"},
+    {"title": "Git & GitHub Crash Course for Beginners", "provider": "freeCodeCamp", "url": "https://www.freecodecamp.org/news/git-and-github-crash-course-build-a-portfolio-site/", "type": "course", "est_hours": 6, "level": "beginner"}
+  ],
+  "Linux": [
+    {"title": "The Linux Command Line (Free Book)", "provider": "William Shotts (LinuxCommand.org)", "url": "http://linuxcommand.org/tlcl.php", "type": "book", "est_hours": 20, "level": "beginner"},
+    {"title": "Introduction to Linux", "provider": "edX (The Linux Foundation)", "url": "https://www.edx.org/course/introduction-to-linux", "type": "course", "est_hours": 25, "level": "intermediate"}
+  ],
+  "CI/CD": [
+    {"title": "GitHub Actions Documentation & Quickstart", "provider": "GitHub Docs", "url": "https://docs.github.com/en/actions", "type": "official docs", "est_hours": 10, "level": "intermediate"},
+    {"title": "CI/CD Pipeline with Docker and GitHub Actions", "provider": "freeCodeCamp", "url": "https://www.freecodecamp.org/news/how-to-build-a-ci-cd-pipeline-with-docker-and-github-actions/", "type": "project", "est_hours": 12, "level": "intermediate"}
+  ],
+  "AWS": [
+    {"title": "AWS Cloud Practitioner Essentials", "provider": "AWS Skill Builder", "url": "https://explore.skillbuilder.aws/learn/course/external/view/elearning/134/aws-cloud-practitioner-essentials", "type": "course", "est_hours": 16, "level": "beginner"},
+    {"title": "AWS Solutions Architect Associate Course", "provider": "freeCodeCamp (Andrew Brown)", "url": "https://www.freecodecamp.org/news/pass-the-aws-certified-solutions-architect-associate-exam/", "type": "course", "est_hours": 35, "level": "intermediate"}
+  ],
+  "Terraform": [
+    {"title": "HashiCorp Learn: Terraform Tutorials", "provider": "HashiCorp", "url": "https://developer.hashicorp.com/terraform/tutorials", "type": "official docs", "est_hours": 18, "level": "intermediate"},
+    {"title": "Terraform Course - Automate Your AWS Infrastructure", "provider": "freeCodeCamp", "url": "https://www.freecodecamp.org/news/terraform-course-automate-aws-cloud-infrastructure/", "type": "course", "est_hours": 12, "level": "beginner"}
+  ],
+  "Bash/Shell": [
+    {"title": "Bash Scripting Tutorial for Beginners", "provider": "freeCodeCamp", "url": "https://www.freecodecamp.org/news/bash-scripting-tutorial-linux-shell-script-and-command-line-for-beginners/", "type": "course", "est_hours": 8, "level": "beginner"}
+  ],
+  "Natural Language Processing": [
+    {"title": "Natural Language Processing Specialization", "provider": "Coursera (DeepLearning.AI)", "url": "https://www.coursera.org/specializations/natural-language-processing", "type": "course", "est_hours": 40, "level": "intermediate"},
+    {"title": "CS224N: Natural Language Processing with Deep Learning", "provider": "Stanford Online", "url": "https://web.stanford.edu/class/cs224n/", "type": "course", "est_hours": 45, "level": "advanced"}
+  ],
+  "Transformers": [
+    {"title": "The Illustrated Transformer", "provider": "Jay Alammar", "url": "https://jalammar.github.io/illustrated-transformer/", "type": "book", "est_hours": 6, "level": "intermediate"},
+    {"title": "Transformers from Scratch in PyTorch", "provider": "Andrej Karpathy (YouTube)", "url": "https://www.youtube.com/watch?v=kCc8FmEb1nY", "type": "project", "est_hours": 10, "level": "advanced"}
+  ],
+  "Hugging Face Transformers": [
+    {"title": "The Hugging Face NLP Course", "provider": "Hugging Face", "url": "https://huggingface.co/learn/nlp-course", "type": "course", "est_hours": 25, "level": "intermediate"},
+    {"title": "Fine-Tuning Transformer Models", "provider": "Hugging Face Docs", "url": "https://huggingface.co/docs/transformers/training", "type": "official docs", "est_hours": 12, "level": "intermediate"}
+  ],
+  "spaCy": [
+    {"title": "Advanced NLP with spaCy (Interactive Course)", "provider": "Ines Montani / explosion.ai", "url": "https://course.spacy.io/", "type": "course", "est_hours": 10, "level": "intermediate"},
+    {"title": "Official spaCy 101 Guide", "provider": "spaCy Docs", "url": "https://spacy.io/usage/spacy-101", "type": "official docs", "est_hours": 8, "level": "beginner"}
+  ],
+  "Computer Vision": [
+    {"title": "CS231n: Deep Learning for Computer Vision", "provider": "Stanford Online", "url": "http://cs231n.stanford.edu/", "type": "course", "est_hours": 45, "level": "advanced"},
+    {"title": "PyImageSearch Computer Vision Fundamentals", "provider": "PyImageSearch", "url": "https://pyimagesearch.com/start-here-cv-and-dl/", "type": "course", "est_hours": 20, "level": "intermediate"}
+  ],
+  "OpenCV": [
+    {"title": "OpenCV Python Tutorials", "provider": "OpenCV Official Docs", "url": "https://docs.opencv.org/4.x/d6/d00/tutorial_py_root.html", "type": "official docs", "est_hours": 18, "level": "intermediate"},
+    {"title": "OpenCV Course - Computer Vision with Python", "provider": "freeCodeCamp", "url": "https://www.freecodecamp.org/news/opencv-course-computer-vision-with-python/", "type": "course", "est_hours": 10, "level": "beginner"}
+  ],
+  "Convolutional Neural Networks": [
+    {"title": "Convolutional Neural Networks Course", "provider": "Coursera (DeepLearning.AI)", "url": "https://www.coursera.org/learn/convolutional-neural-networks", "type": "course", "est_hours": 20, "level": "intermediate"}
+  ],
+  "Object Detection": [
+    {"title": "Object Detection Guide with YOLO & Torchvision", "provider": "Ultralytics Docs", "url": "https://docs.ultralytics.com/", "type": "official docs", "est_hours": 14, "level": "intermediate"}
+  ],
+  "YOLO": [
+    {"title": "YOLOv8 Complete Guide and Hands-on Projects", "provider": "Ultralytics Docs", "url": "https://docs.ultralytics.com/modes/predict/", "type": "official docs", "est_hours": 12, "level": "intermediate"}
+  ],
+  "Data Engineering": [
+    {"title": "Data Engineering Zoomcamp (Free & Open Source)", "provider": "DataTalks.Club", "url": "https://github.com/DataTalksClub/data-engineering-zoomcamp", "type": "course", "est_hours": 50, "level": "advanced"},
+    {"title": "Fundamentals of Data Engineering", "provider": "O'Reilly (Joe Reis & Matt Housley)", "url": "https://www.oreilly.com/library/view/fundamentals-of-data/9781098108298/", "type": "book", "est_hours": 35, "level": "intermediate"}
+  ],
+  "Apache Spark": [
+    {"title": "Spark: The Definitive Guide", "provider": "O'Reilly (Bill Chambers & Matei Zaharia)", "url": "https://www.oreilly.com/library/view/spark-the-definitive/9781491912201/", "type": "book", "est_hours": 35, "level": "intermediate"},
+    {"title": "Apache Spark Quick Start & SQL Guide", "provider": "Apache Spark Official", "url": "https://spark.apache.org/docs/latest/quick-start.html", "type": "official docs", "est_hours": 15, "level": "intermediate"}
+  ],
+  "Apache Airflow": [
+    {"title": "Apache Airflow Tutorial & Architecture", "provider": "Apache Airflow Docs", "url": "https://airflow.apache.org/docs/apache-airflow/stable/tutorial/index.html", "type": "official docs", "est_hours": 15, "level": "intermediate"},
+    {"title": "Orchestrating Data Pipelines with Airflow", "provider": "Astronomer Guides", "url": "https://www.astronomer.io/docs/learn", "type": "course", "est_hours": 12, "level": "intermediate"}
+  ],
+  "Snowflake": [
+    {"title": "Snowflake Hands-on Essentials", "provider": "Snowflake University", "url": "https://learn.snowflake.com/", "type": "course", "est_hours": 18, "level": "intermediate"},
+    {"title": "Snowflake Documentation & Architecture Guides", "provider": "Snowflake Docs", "url": "https://docs.snowflake.com/", "type": "official docs", "est_hours": 12, "level": "intermediate"}
+  ]
+}

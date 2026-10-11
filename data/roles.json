@@ -1,0 +1,121 @@
+{
+  "Data Scientist": {
+    "description": "Extracts insights from structured and unstructured data using statistical modeling and machine learning.",
+    "skills": [
+      {"name": "Python", "importance": 1.0, "mandatory": true, "level": "advanced"},
+      {"name": "Statistics", "importance": 0.9, "mandatory": true, "level": "intermediate"},
+      {"name": "scikit-learn", "importance": 0.8, "mandatory": true, "level": "intermediate"},
+      {"name": "SQL", "importance": 0.8, "mandatory": true, "level": "intermediate"},
+      {"name": "Data Visualization", "importance": 0.6, "mandatory": false, "level": "intermediate"},
+      {"name": "Deep Learning", "importance": 0.5, "mandatory": false, "level": "beginner"}
+    ]
+  },
+  "ML Engineer": {
+    "description": "Designs, trains, optimizes, and productionizes scalable machine learning and deep learning models.",
+    "skills": [
+      {"name": "Python", "importance": 1.0, "mandatory": true, "level": "advanced"},
+      {"name": "PyTorch", "importance": 0.9, "mandatory": true, "level": "advanced"},
+      {"name": "Machine Learning", "importance": 0.9, "mandatory": true, "level": "advanced"},
+      {"name": "Docker", "importance": 0.8, "mandatory": true, "level": "intermediate"},
+      {"name": "MLOps", "importance": 0.7, "mandatory": false, "level": "intermediate"},
+      {"name": "Model Deployment", "importance": 0.7, "mandatory": false, "level": "intermediate"},
+      {"name": "Data Structures & Algorithms", "importance": 0.6, "mandatory": false, "level": "intermediate"}
+    ]
+  },
+  "AI Engineer": {
+    "description": "Builds generative AI, LLM applications, agentic workflows, and semantic retrieval systems.",
+    "skills": [
+      {"name": "Python", "importance": 1.0, "mandatory": true, "level": "advanced"},
+      {"name": "Large Language Models", "importance": 0.95, "mandatory": true, "level": "advanced"},
+      {"name": "LangChain", "importance": 0.85, "mandatory": true, "level": "intermediate"},
+      {"name": "Vector Databases", "importance": 0.8, "mandatory": true, "level": "intermediate"},
+      {"name": "RAG (Retrieval-Augmented Generation)", "importance": 0.8, "mandatory": false, "level": "intermediate"},
+      {"name": "Prompt Engineering", "importance": 0.7, "mandatory": false, "level": "intermediate"},
+      {"name": "FastAPI", "importance": 0.65, "mandatory": false, "level": "intermediate"}
+    ]
+  },
+  "Data Analyst": {
+    "description": "Transforms raw business data into actionable dashboards, KPIs, and statistical insights.",
+    "skills": [
+      {"name": "SQL", "importance": 1.0, "mandatory": true, "level": "advanced"},
+      {"name": "Data Visualization", "importance": 0.9, "mandatory": true, "level": "advanced"},
+      {"name": "Excel", "importance": 0.85, "mandatory": true, "level": "advanced"},
+      {"name": "Tableau", "importance": 0.75, "mandatory": false, "level": "intermediate"},
+      {"name": "Statistics", "importance": 0.75, "mandatory": true, "level": "intermediate"},
+      {"name": "Python", "importance": 0.6, "mandatory": false, "level": "intermediate"},
+      {"name": "Communication", "importance": 0.6, "mandatory": false, "level": "intermediate"}
+    ]
+  },
+  "Backend Developer": {
+    "description": "Architects resilient web APIs, business logic, microservices, and high-performance databases.",
+    "skills": [
+      {"name": "Python", "importance": 0.9, "mandatory": true, "level": "advanced"},
+      {"name": "FastAPI", "importance": 0.85, "mandatory": true, "level": "intermediate"},
+      {"name": "PostgreSQL", "importance": 0.85, "mandatory": true, "level": "intermediate"},
+      {"name": "REST APIs", "importance": 0.9, "mandatory": true, "level": "advanced"},
+      {"name": "Docker", "importance": 0.7, "mandatory": false, "level": "intermediate"},
+      {"name": "Redis", "importance": 0.65, "mandatory": false, "level": "intermediate"},
+      {"name": "System Design", "importance": 0.6, "mandatory": false, "level": "intermediate"}
+    ]
+  },
+  "Full Stack Developer": {
+    "description": "Develops responsive client applications and robust server architectures across the entire stack.",
+    "skills": [
+      {"name": "JavaScript", "importance": 1.0, "mandatory": true, "level": "advanced"},
+      {"name": "React", "importance": 0.9, "mandatory": true, "level": "intermediate"},
+      {"name": "Node.js", "importance": 0.85, "mandatory": true, "level": "intermediate"},
+      {"name": "HTML/CSS", "importance": 0.85, "mandatory": true, "level": "intermediate"},
+      {"name": "REST APIs", "importance": 0.8, "mandatory": true, "level": "intermediate"},
+      {"name": "SQL", "importance": 0.7, "mandatory": false, "level": "intermediate"},
+      {"name": "Git", "importance": 0.65, "mandatory": false, "level": "intermediate"}
+    ]
+  },
+  "DevOps Engineer": {
+    "description": "Automates cloud infrastructure, deployment pipelines, cluster management, and system reliability.",
+    "skills": [
+      {"name": "Linux", "importance": 1.0, "mandatory": true, "level": "advanced"},
+      {"name": "Docker", "importance": 0.95, "mandatory": true, "level": "advanced"},
+      {"name": "Kubernetes", "importance": 0.9, "mandatory": true, "level": "intermediate"},
+      {"name": "CI/CD", "importance": 0.85, "mandatory": true, "level": "intermediate"},
+      {"name": "AWS", "importance": 0.8, "mandatory": true, "level": "intermediate"},
+      {"name": "Terraform", "importance": 0.75, "mandatory": false, "level": "intermediate"},
+      {"name": "Bash/Shell", "importance": 0.7, "mandatory": false, "level": "intermediate"}
+    ]
+  },
+  "NLP Engineer": {
+    "description": "Specializes in text intelligence, transformer architectures, tokenization, and language understanding.",
+    "skills": [
+      {"name": "Python", "importance": 1.0, "mandatory": true, "level": "advanced"},
+      {"name": "Natural Language Processing", "importance": 0.95, "mandatory": true, "level": "advanced"},
+      {"name": "PyTorch", "importance": 0.9, "mandatory": true, "level": "advanced"},
+      {"name": "Transformers", "importance": 0.85, "mandatory": true, "level": "intermediate"},
+      {"name": "Hugging Face Transformers", "importance": 0.8, "mandatory": true, "level": "intermediate"},
+      {"name": "spaCy", "importance": 0.65, "mandatory": false, "level": "intermediate"},
+      {"name": "Large Language Models", "importance": 0.6, "mandatory": false, "level": "intermediate"}
+    ]
+  },
+  "Computer Vision Engineer": {
+    "description": "Builds vision models for image classification, real-time object tracking, and spatial computing.",
+    "skills": [
+      {"name": "Python", "importance": 1.0, "mandatory": true, "level": "advanced"},
+      {"name": "Computer Vision", "importance": 0.95, "mandatory": true, "level": "advanced"},
+      {"name": "OpenCV", "importance": 0.9, "mandatory": true, "level": "advanced"},
+      {"name": "PyTorch", "importance": 0.85, "mandatory": true, "level": "intermediate"},
+      {"name": "Convolutional Neural Networks", "importance": 0.85, "mandatory": true, "level": "intermediate"},
+      {"name": "Object Detection", "importance": 0.75, "mandatory": false, "level": "intermediate"},
+      {"name": "YOLO", "importance": 0.7, "mandatory": false, "level": "intermediate"}
+    ]
+  },
+  "Data Engineer": {
+    "description": "Builds robust high-throughput data pipelines, data warehouses, streaming platforms, and data models.",
+    "skills": [
+      {"name": "SQL", "importance": 1.0, "mandatory": true, "level": "advanced"},
+      {"name": "Python", "importance": 0.95, "mandatory": true, "level": "advanced"},
+      {"name": "Data Engineering", "importance": 0.9, "mandatory": true, "level": "advanced"},
+      {"name": "Apache Spark", "importance": 0.85, "mandatory": true, "level": "intermediate"},
+      {"name": "Apache Airflow", "importance": 0.75, "mandatory": true, "level": "intermediate"},
+      {"name": "Snowflake", "importance": 0.7, "mandatory": false, "level": "intermediate"},
+      {"name": "PostgreSQL", "importance": 0.65, "mandatory": false, "level": "intermediate"}
+    ]
+  }
+}

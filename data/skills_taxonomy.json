@@ -1,0 +1,818 @@
+{
+  "Python": {
+    "aliases": ["python3", "py", "python programming", "python3.10", "python3.11", "python 3"],
+    "category": "Programming & Core CS",
+    "related": {"R": 0.4, "Julia": 0.3},
+    "prerequisites": []
+  },
+  "R": {
+    "aliases": ["r programming", "r language", "r-project"],
+    "category": "Programming & Core CS",
+    "related": {"Python": 0.4, "Julia": 0.4},
+    "prerequisites": []
+  },
+  "Julia": {
+    "aliases": ["julia lang", "julialang"],
+    "category": "Programming & Core CS",
+    "related": {"Python": 0.3, "R": 0.4},
+    "prerequisites": []
+  },
+  "Java": {
+    "aliases": ["core java", "java 17", "java 21", "jvm"],
+    "category": "Programming & Core CS",
+    "related": {"C#": 0.7, "Scala": 0.7, "Kotlin": 0.8},
+    "prerequisites": ["Object-Oriented Programming"]
+  },
+  "C++": {
+    "aliases": ["cpp", "c plus plus", "c/c++"],
+    "category": "Programming & Core CS",
+    "related": {"C": 0.8, "Rust": 0.6},
+    "prerequisites": ["Data Structures & Algorithms"]
+  },
+  "C": {
+    "aliases": ["c language", "ansi c"],
+    "category": "Programming & Core CS",
+    "related": {"C++": 0.8},
+    "prerequisites": []
+  },
+  "C#": {
+    "aliases": ["csharp", "c sharp", ".net c#"],
+    "category": "Programming & Core CS",
+    "related": {"Java": 0.7},
+    "prerequisites": ["Object-Oriented Programming"]
+  },
+  "Go": {
+    "aliases": ["golang", "go language"],
+    "category": "Programming & Core CS",
+    "related": {"Rust": 0.5, "C++": 0.5},
+    "prerequisites": []
+  },
+  "Rust": {
+    "aliases": ["rustlang", "rust language"],
+    "category": "Programming & Core CS",
+    "related": {"C++": 0.6, "Go": 0.5},
+    "prerequisites": ["Data Structures & Algorithms"]
+  },
+  "TypeScript": {
+    "aliases": ["ts"],
+    "category": "Programming & Core CS",
+    "related": {"JavaScript": 0.95},
+    "prerequisites": ["JavaScript"]
+  },
+  "JavaScript": {
+    "aliases": ["js", "es6", "vanilla js", "ecmascript"],
+    "category": "Programming & Core CS",
+    "related": {"TypeScript": 0.9},
+    "prerequisites": []
+  },
+  "SQL": {
+    "aliases": ["structured query language", "ansi sql", "t-sql", "pl/sql", "sql queries"],
+    "category": "Data Engineering & Databases",
+    "related": {"PostgreSQL": 0.85, "MySQL": 0.85, "Data Engineering": 0.5},
+    "prerequisites": []
+  },
+  "Bash/Shell": {
+    "aliases": ["bash", "shell scripting", "sh", "zsh", "linux shell"],
+    "category": "Programming & Core CS",
+    "related": {"Linux": 0.8},
+    "prerequisites": ["Linux"]
+  },
+  "Object-Oriented Programming": {
+    "aliases": ["oop", "object oriented", "object oriented design", "ood"],
+    "category": "Programming & Core CS",
+    "related": {"System Design": 0.5},
+    "prerequisites": []
+  },
+  "Data Structures & Algorithms": {
+    "aliases": ["dsa", "algorithms", "data structures", "algo", "algorithmic problem solving"],
+    "category": "Programming & Core CS",
+    "related": {"Problem Solving": 0.8},
+    "prerequisites": []
+  },
+  "Git": {
+    "aliases": ["github", "gitlab", "version control", "git/github", "vcs"],
+    "category": "DevOps & MLOps",
+    "related": {"GitHub Actions": 0.6},
+    "prerequisites": []
+  },
+  "Machine Learning": {
+    "aliases": ["ml", "applied machine learning", "statistical learning"],
+    "category": "Machine Learning",
+    "related": {"Deep Learning": 0.7, "scikit-learn": 0.85, "Data Science": 0.8},
+    "prerequisites": ["Python", "Statistics", "Linear Algebra"]
+  },
+  "scikit-learn": {
+    "aliases": ["sklearn", "scikit learn", "scikit-learn library"],
+    "category": "Machine Learning",
+    "related": {"XGBoost": 0.6, "LightGBM": 0.6, "Machine Learning": 0.9},
+    "prerequisites": ["Python", "Statistics"]
+  },
+  "XGBoost": {
+    "aliases": ["extreme gradient boosting", "xgb"],
+    "category": "Machine Learning",
+    "related": {"LightGBM": 0.9, "CatBoost": 0.85, "scikit-learn": 0.6},
+    "prerequisites": ["Machine Learning", "Python"]
+  },
+  "LightGBM": {
+    "aliases": ["lgbm", "light gradient boosting machine"],
+    "category": "Machine Learning",
+    "related": {"XGBoost": 0.9, "CatBoost": 0.85},
+    "prerequisites": ["Machine Learning", "Python"]
+  },
+  "CatBoost": {
+    "aliases": ["catboost library"],
+    "category": "Machine Learning",
+    "related": {"XGBoost": 0.85, "LightGBM": 0.85},
+    "prerequisites": ["Machine Learning", "Python"]
+  },
+  "Feature Engineering": {
+    "aliases": ["feature extraction", "feature selection", "feature preprocessing"],
+    "category": "Machine Learning",
+    "related": {"Machine Learning": 0.8, "Exploratory Data Analysis": 0.7},
+    "prerequisites": ["Python", "Statistics"]
+  },
+  "Model Evaluation": {
+    "aliases": ["model validation", "cross-validation", "evaluation metrics", "roc-auc"],
+    "category": "Machine Learning",
+    "related": {"Machine Learning": 0.85, "Statistics": 0.7},
+    "prerequisites": ["Statistics", "Machine Learning"]
+  },
+  "Hyperparameter Tuning": {
+    "aliases": ["hyperparameter optimization", "optuna", "grid search", "random search"],
+    "category": "Machine Learning",
+    "related": {"Machine Learning": 0.75},
+    "prerequisites": ["Machine Learning"]
+  },
+  "Supervised Learning": {
+    "aliases": ["supervised ml", "regression and classification"],
+    "category": "Machine Learning",
+    "related": {"Machine Learning": 0.9},
+    "prerequisites": ["Python", "Statistics"]
+  },
+  "Unsupervised Learning": {
+    "aliases": ["clustering", "dimensionality reduction", "pca", "k-means"],
+    "category": "Machine Learning",
+    "related": {"Machine Learning": 0.85},
+    "prerequisites": ["Python", "Linear Algebra"]
+  },
+  "Reinforcement Learning": {
+    "aliases": ["rl", "deep reinforcement learning", "q-learning", "policy gradients"],
+    "category": "Machine Learning",
+    "related": {"Deep Learning": 0.7},
+    "prerequisites": ["Python", "Deep Learning", "Probability"]
+  },
+  "Time Series Analysis": {
+    "aliases": ["time series", "time series forecasting", "arima", "prophet"],
+    "category": "Machine Learning",
+    "related": {"Statistics": 0.75, "Machine Learning": 0.7},
+    "prerequisites": ["Python", "Statistics"]
+  },
+  "Recommender Systems": {
+    "aliases": ["recommendation systems", "collaborative filtering", "recSys"],
+    "category": "Machine Learning",
+    "related": {"Machine Learning": 0.7, "Deep Learning": 0.6},
+    "prerequisites": ["Machine Learning", "Linear Algebra"]
+  },
+  "Deep Learning": {
+    "aliases": ["dl", "neural networks", "deep neural networks", "artificial neural networks"],
+    "category": "Deep Learning",
+    "related": {"PyTorch": 0.85, "TensorFlow": 0.85, "Machine Learning": 0.8},
+    "prerequisites": ["Machine Learning", "Linear Algebra"]
+  },
+  "PyTorch": {
+    "aliases": ["torch", "pytorch lightning", "pt"],
+    "category": "Deep Learning",
+    "related": {"TensorFlow": 0.8, "Keras": 0.7, "JAX": 0.65, "Deep Learning": 0.9},
+    "prerequisites": ["Python", "Deep Learning", "Linear Algebra"]
+  },
+  "TensorFlow": {
+    "aliases": ["tf", "tensorflow 2", "tensorflow 2.0", "tf2"],
+    "category": "Deep Learning",
+    "related": {"PyTorch": 0.8, "Keras": 0.9, "Deep Learning": 0.9},
+    "prerequisites": ["Python", "Deep Learning", "Linear Algebra"]
+  },
+  "Keras": {
+    "aliases": ["tf.keras", "keras api"],
+    "category": "Deep Learning",
+    "related": {"TensorFlow": 0.9, "PyTorch": 0.7},
+    "prerequisites": ["Python", "Deep Learning"]
+  },
+  "JAX": {
+    "aliases": ["jax library", "flax"],
+    "category": "Deep Learning",
+    "related": {"PyTorch": 0.65, "TensorFlow": 0.6},
+    "prerequisites": ["Python", "Deep Learning"]
+  },
+  "Convolutional Neural Networks": {
+    "aliases": ["cnn", "convnets", "convolutional networks"],
+    "category": "Deep Learning",
+    "related": {"Computer Vision": 0.85, "Deep Learning": 0.9},
+    "prerequisites": ["Deep Learning"]
+  },
+  "Recurrent Neural Networks": {
+    "aliases": ["rnn", "lstm", "gru"],
+    "category": "Deep Learning",
+    "related": {"Natural Language Processing": 0.75, "Deep Learning": 0.85},
+    "prerequisites": ["Deep Learning"]
+  },
+  "Transformers": {
+    "aliases": ["transformer models", "attention mechanism", "self-attention"],
+    "category": "Deep Learning",
+    "related": {"Large Language Models": 0.9, "Hugging Face Transformers": 0.9, "Deep Learning": 0.85},
+    "prerequisites": ["Deep Learning"]
+  },
+  "GANs": {
+    "aliases": ["generative adversarial networks", "gan"],
+    "category": "Deep Learning",
+    "related": {"Diffusion Models": 0.7, "Deep Learning": 0.8},
+    "prerequisites": ["Deep Learning"]
+  },
+  "Diffusion Models": {
+    "aliases": ["diffusion", "stable diffusion", "ddpm"],
+    "category": "Deep Learning",
+    "related": {"GANs": 0.7, "Deep Learning": 0.85},
+    "prerequisites": ["Deep Learning"]
+  },
+  "Transfer Learning": {
+    "aliases": ["fine-tuning", "finetuning", "pretrained models"],
+    "category": "Deep Learning",
+    "related": {"Deep Learning": 0.8, "PyTorch": 0.7},
+    "prerequisites": ["Deep Learning"]
+  },
+  "Natural Language Processing": {
+    "aliases": ["nlp", "text analytics", "computational linguistics"],
+    "category": "Natural Language Processing",
+    "related": {"Large Language Models": 0.85, "Transformers": 0.8, "spaCy": 0.75},
+    "prerequisites": ["Python", "Machine Learning"]
+  },
+  "spaCy": {
+    "aliases": ["spacy library", "spacy nlp"],
+    "category": "Natural Language Processing",
+    "related": {"NLTK": 0.75, "Natural Language Processing": 0.85},
+    "prerequisites": ["Python", "Natural Language Processing"]
+  },
+  "NLTK": {
+    "aliases": ["natural language toolkit"],
+    "category": "Natural Language Processing",
+    "related": {"spaCy": 0.75},
+    "prerequisites": ["Python", "Natural Language Processing"]
+  },
+  "Hugging Face Transformers": {
+    "aliases": ["huggingface", "hugging face", "transformers library", "hf"],
+    "category": "Natural Language Processing",
+    "related": {"Large Language Models": 0.85, "PyTorch": 0.75},
+    "prerequisites": ["PyTorch", "Transformers"]
+  },
+  "Large Language Models": {
+    "aliases": ["llm", "llms", "generative ai", "genai", "foundation models"],
+    "category": "Natural Language Processing",
+    "related": {"Prompt Engineering": 0.8, "Transformers": 0.85, "LangChain": 0.8},
+    "prerequisites": ["Deep Learning", "Transformers"]
+  },
+  "Prompt Engineering": {
+    "aliases": ["prompting", "prompt design", "in-context learning"],
+    "category": "Natural Language Processing",
+    "related": {"Large Language Models": 0.8, "LangChain": 0.75},
+    "prerequisites": []
+  },
+  "LangChain": {
+    "aliases": ["langchain framework", "langgraph"],
+    "category": "Natural Language Processing",
+    "related": {"LlamaIndex": 0.8, "Large Language Models": 0.85},
+    "prerequisites": ["Python", "Large Language Models"]
+  },
+  "LlamaIndex": {
+    "aliases": ["llamaindex", "gpt index"],
+    "category": "Natural Language Processing",
+    "related": {"LangChain": 0.8, "RAG (Retrieval-Augmented Generation)": 0.85},
+    "prerequisites": ["Python", "Large Language Models"]
+  },
+  "Vector Databases": {
+    "aliases": ["vector db", "chromadb", "pinecone", "weaviate", "faiss", "qdrant", "milvus"],
+    "category": "Natural Language Processing",
+    "related": {"RAG (Retrieval-Augmented Generation)": 0.85},
+    "prerequisites": ["Python"]
+  },
+  "RAG (Retrieval-Augmented Generation)": {
+    "aliases": ["rag", "retrieval augmented generation"],
+    "category": "Natural Language Processing",
+    "related": {"Vector Databases": 0.85, "LangChain": 0.85, "Large Language Models": 0.85},
+    "prerequisites": ["Large Language Models", "Vector Databases"]
+  },
+  "BERT": {
+    "aliases": ["bert model", "roberta", "distilbert"],
+    "category": "Natural Language Processing",
+    "related": {"Transformers": 0.9, "Natural Language Processing": 0.85},
+    "prerequisites": ["Transformers"]
+  },
+  "Tokenization": {
+    "aliases": ["tokenizing", "subword tokenization", "bpe"],
+    "category": "Natural Language Processing",
+    "related": {"Natural Language Processing": 0.75},
+    "prerequisites": ["Python"]
+  },
+  "Text Classification": {
+    "aliases": ["sentiment analysis", "document classification"],
+    "category": "Natural Language Processing",
+    "related": {"Natural Language Processing": 0.8},
+    "prerequisites": ["Natural Language Processing"]
+  },
+  "Computer Vision": {
+    "aliases": ["cv", "vision", "digital image processing", "image processing"],
+    "category": "Computer Vision",
+    "related": {"OpenCV": 0.85, "Convolutional Neural Networks": 0.85},
+    "prerequisites": ["Python", "Linear Algebra", "Deep Learning"]
+  },
+  "OpenCV": {
+    "aliases": ["cv2", "opencv-python"],
+    "category": "Computer Vision",
+    "related": {"Computer Vision": 0.9, "PIL": 0.7},
+    "prerequisites": ["Python"]
+  },
+  "YOLO": {
+    "aliases": ["yolov8", "yolov5", "you only look once"],
+    "category": "Computer Vision",
+    "related": {"Object Detection": 0.95, "Computer Vision": 0.85},
+    "prerequisites": ["Deep Learning", "Computer Vision"]
+  },
+  "Object Detection": {
+    "aliases": ["bounding box detection", "detection models", "faster r-cnn"],
+    "category": "Computer Vision",
+    "related": {"YOLO": 0.9, "Computer Vision": 0.85},
+    "prerequisites": ["Convolutional Neural Networks", "Computer Vision"]
+  },
+  "Image Segmentation": {
+    "aliases": ["semantic segmentation", "instance segmentation", "mask r-cnn", "u-net"],
+    "category": "Computer Vision",
+    "related": {"Computer Vision": 0.85},
+    "prerequisites": ["Convolutional Neural Networks", "Computer Vision"]
+  },
+  "ResNet": {
+    "aliases": ["residual networks", "resnet50"],
+    "category": "Computer Vision",
+    "related": {"Convolutional Neural Networks": 0.9},
+    "prerequisites": ["Convolutional Neural Networks"]
+  },
+  "Image Classification": {
+    "aliases": ["image recognition"],
+    "category": "Computer Vision",
+    "related": {"Computer Vision": 0.85, "Convolutional Neural Networks": 0.85},
+    "prerequisites": ["Deep Learning"]
+  },
+  "MediaPipe": {
+    "aliases": ["google mediapipe"],
+    "category": "Computer Vision",
+    "related": {"OpenCV": 0.7, "Computer Vision": 0.75},
+    "prerequisites": ["Python", "Computer Vision"]
+  },
+  "Torchvision": {
+    "aliases": ["torch vision"],
+    "category": "Computer Vision",
+    "related": {"PyTorch": 0.85, "Computer Vision": 0.8},
+    "prerequisites": ["PyTorch"]
+  },
+  "Statistics": {
+    "aliases": ["applied statistics", "statistical modeling", "stats", "inferential statistics", "statistical analysis"],
+    "category": "Data Science & Analytics",
+    "related": {"Probability": 0.85, "A/B Testing": 0.8},
+    "prerequisites": []
+  },
+  "Probability": {
+    "aliases": ["probability theory", "bayes theorem", "bayesian"],
+    "category": "Data Science & Analytics",
+    "related": {"Statistics": 0.85},
+    "prerequisites": []
+  },
+  "Linear Algebra": {
+    "aliases": ["matrix operations", "vectors and matrices", "eigenvalues"],
+    "category": "Data Science & Analytics",
+    "related": {"Calculus": 0.7},
+    "prerequisites": []
+  },
+  "Calculus": {
+    "aliases": ["multivariable calculus", "derivatives and gradients"],
+    "category": "Data Science & Analytics",
+    "related": {"Linear Algebra": 0.7},
+    "prerequisites": []
+  },
+  "Exploratory Data Analysis": {
+    "aliases": ["eda", "data exploration", "data profiling"],
+    "category": "Data Science & Analytics",
+    "related": {"pandas": 0.85, "Data Visualization": 0.85},
+    "prerequisites": ["Python", "Statistics"]
+  },
+  "Data Visualization": {
+    "aliases": ["data viz", "visualization", "plotting", "data charting"],
+    "category": "Data Science & Analytics",
+    "related": {"matplotlib": 0.9, "Seaborn": 0.9, "Tableau": 0.75, "Power BI": 0.7},
+    "prerequisites": []
+  },
+  "matplotlib": {
+    "aliases": ["plt", "matplotlib.pyplot"],
+    "category": "Data Science & Analytics",
+    "related": {"Data Visualization": 0.95, "Seaborn": 0.85},
+    "prerequisites": ["Python"]
+  },
+  "Seaborn": {
+    "aliases": ["sns", "seaborn plotting"],
+    "category": "Data Science & Analytics",
+    "related": {"Data Visualization": 0.95, "matplotlib": 0.85},
+    "prerequisites": ["Python", "matplotlib"]
+  },
+  "Tableau": {
+    "aliases": ["tableau desktop", "tableau server"],
+    "category": "Data Science & Analytics",
+    "related": {"Power BI": 0.85, "Data Visualization": 0.85},
+    "prerequisites": ["Data Visualization"]
+  },
+  "Power BI": {
+    "aliases": ["powerbi", "microsoft power bi", "dax"],
+    "category": "Data Science & Analytics",
+    "related": {"Tableau": 0.85, "Data Visualization": 0.85},
+    "prerequisites": ["Data Visualization"]
+  },
+  "pandas": {
+    "aliases": ["pandas library", "pd", "dataframes"],
+    "category": "Data Science & Analytics",
+    "related": {"NumPy": 0.8, "Exploratory Data Analysis": 0.85},
+    "prerequisites": ["Python"]
+  },
+  "NumPy": {
+    "aliases": ["numpy library", "np", "numerical python"],
+    "category": "Data Science & Analytics",
+    "related": {"pandas": 0.8, "Linear Algebra": 0.7},
+    "prerequisites": ["Python"]
+  },
+  "A/B Testing": {
+    "aliases": ["ab testing", "hypothesis testing", "split testing", "experimentation"],
+    "category": "Data Science & Analytics",
+    "related": {"Statistics": 0.85},
+    "prerequisites": ["Statistics"]
+  },
+  "Business Intelligence": {
+    "aliases": ["bi", "business analytics", "executive dashboards"],
+    "category": "Data Science & Analytics",
+    "related": {"Tableau": 0.8, "Power BI": 0.8, "SQL": 0.75},
+    "prerequisites": ["SQL", "Data Visualization"]
+  },
+  "Excel": {
+    "aliases": ["ms excel", "microsoft excel", "spreadsheets", "vlookup"],
+    "category": "Data Science & Analytics",
+    "related": {"Business Intelligence": 0.6},
+    "prerequisites": []
+  },
+  "Data Engineering": {
+    "aliases": ["data pipelines", "big data engineering", "data infrastructure"],
+    "category": "Data Engineering & Databases",
+    "related": {"ETL/ELT": 0.9, "Apache Spark": 0.8, "SQL": 0.85},
+    "prerequisites": ["Python", "SQL"]
+  },
+  "Apache Spark": {
+    "aliases": ["spark", "spark core", "spark sql"],
+    "category": "Data Engineering & Databases",
+    "related": {"PySpark": 0.95, "Data Engineering": 0.85},
+    "prerequisites": ["Data Engineering", "SQL"]
+  },
+  "PySpark": {
+    "aliases": ["pyspark dataframe", "pyspark sql"],
+    "category": "Data Engineering & Databases",
+    "related": {"Apache Spark": 0.95, "pandas": 0.6},
+    "prerequisites": ["Python", "SQL"]
+  },
+  "Apache Kafka": {
+    "aliases": ["kafka", "event streaming", "kafka streaming"],
+    "category": "Data Engineering & Databases",
+    "related": {"Data Engineering": 0.75},
+    "prerequisites": ["Data Engineering"]
+  },
+  "Apache Airflow": {
+    "aliases": ["airflow", "workflow orchestration", "dag scheduling"],
+    "category": "Data Engineering & Databases",
+    "related": {"Data Engineering": 0.8, "dbt": 0.6},
+    "prerequisites": ["Python", "Data Engineering"]
+  },
+  "dbt": {
+    "aliases": ["data build tool", "dbt core"],
+    "category": "Data Engineering & Databases",
+    "related": {"Data Modeling": 0.8, "SQL": 0.85},
+    "prerequisites": ["SQL"]
+  },
+  "Snowflake": {
+    "aliases": ["snowflake cloud data platform", "snowflake dw"],
+    "category": "Data Engineering & Databases",
+    "related": {"Databricks": 0.75, "Data Warehousing": 0.85},
+    "prerequisites": ["SQL"]
+  },
+  "Databricks": {
+    "aliases": ["databricks lakehouse", "spark databricks"],
+    "category": "Data Engineering & Databases",
+    "related": {"Apache Spark": 0.85, "Snowflake": 0.75},
+    "prerequisites": ["Apache Spark", "Python"]
+  },
+  "PostgreSQL": {
+    "aliases": ["postgres", "pgsql", "postgresql database"],
+    "category": "Data Engineering & Databases",
+    "related": {"MySQL": 0.85, "SQL": 0.95},
+    "prerequisites": ["SQL"]
+  },
+  "MySQL": {
+    "aliases": ["mysql server", "mariadb"],
+    "category": "Data Engineering & Databases",
+    "related": {"PostgreSQL": 0.85, "SQL": 0.95},
+    "prerequisites": ["SQL"]
+  },
+  "MongoDB": {
+    "aliases": ["mongo", "nosql mongodb", "documentdb"],
+    "category": "Data Engineering & Databases",
+    "related": {"Redis": 0.6, "Cassandra": 0.6},
+    "prerequisites": []
+  },
+  "Redis": {
+    "aliases": ["redis cache", "in-memory cache", "key-value store"],
+    "category": "Data Engineering & Databases",
+    "related": {"MongoDB": 0.5},
+    "prerequisites": []
+  },
+  "Cassandra": {
+    "aliases": ["apache cassandra", "nosql cassandra"],
+    "category": "Data Engineering & Databases",
+    "related": {"MongoDB": 0.6},
+    "prerequisites": []
+  },
+  "Data Warehousing": {
+    "aliases": ["dw", "data warehouse", "dimensional modeling", "star schema"],
+    "category": "Data Engineering & Databases",
+    "related": {"Snowflake": 0.85, "Data Engineering": 0.8},
+    "prerequisites": ["SQL"]
+  },
+  "ETL/ELT": {
+    "aliases": ["etl", "elt", "data ingestion", "data pipelines"],
+    "category": "Data Engineering & Databases",
+    "related": {"Data Engineering": 0.9, "Apache Airflow": 0.8},
+    "prerequisites": ["SQL", "Python"]
+  },
+  "Data Modeling": {
+    "aliases": ["database modeling", "er diagrams", "relational modeling"],
+    "category": "Data Engineering & Databases",
+    "related": {"SQL": 0.8, "Data Warehousing": 0.75},
+    "prerequisites": ["SQL"]
+  },
+  "Cloud Computing": {
+    "aliases": ["cloud infrastructure", "public cloud"],
+    "category": "Cloud & Infrastructure",
+    "related": {"AWS": 0.9, "Azure": 0.9, "Google Cloud Platform (GCP)": 0.9},
+    "prerequisites": []
+  },
+  "AWS": {
+    "aliases": ["amazon web services", "amazon cloud"],
+    "category": "Cloud & Infrastructure",
+    "related": {"Azure": 0.85, "Google Cloud Platform (GCP)": 0.85},
+    "prerequisites": ["Cloud Computing"]
+  },
+  "Azure": {
+    "aliases": ["microsoft azure", "azure cloud"],
+    "category": "Cloud & Infrastructure",
+    "related": {"AWS": 0.85, "Google Cloud Platform (GCP)": 0.85},
+    "prerequisites": ["Cloud Computing"]
+  },
+  "Google Cloud Platform (GCP)": {
+    "aliases": ["gcp", "google cloud"],
+    "category": "Cloud & Infrastructure",
+    "related": {"AWS": 0.85, "Azure": 0.85},
+    "prerequisites": ["Cloud Computing"]
+  },
+  "AWS S3": {
+    "aliases": ["s3", "simple storage service", "object storage"],
+    "category": "Cloud & Infrastructure",
+    "related": {"AWS": 0.9},
+    "prerequisites": ["AWS"]
+  },
+  "AWS EC2": {
+    "aliases": ["ec2", "elastic compute cloud", "cloud virtual machines"],
+    "category": "Cloud & Infrastructure",
+    "related": {"AWS": 0.9},
+    "prerequisites": ["AWS"]
+  },
+  "AWS Lambda": {
+    "aliases": ["lambda", "serverless functions"],
+    "category": "Cloud & Infrastructure",
+    "related": {"Serverless": 0.9, "AWS": 0.9},
+    "prerequisites": ["AWS"]
+  },
+  "Serverless": {
+    "aliases": ["serverless architecture", "faas"],
+    "category": "Cloud & Infrastructure",
+    "related": {"AWS Lambda": 0.85},
+    "prerequisites": ["Cloud Computing"]
+  },
+  "Cloud Architecture": {
+    "aliases": ["well-architected framework", "cloud solution architecture"],
+    "category": "Cloud & Infrastructure",
+    "related": {"Cloud Computing": 0.9, "System Design": 0.8},
+    "prerequisites": ["Cloud Computing"]
+  },
+  "DevOps": {
+    "aliases": ["site reliability", "sre", "infrastructure automation"],
+    "category": "DevOps & MLOps",
+    "related": {"CI/CD": 0.85, "Docker": 0.85, "Kubernetes": 0.85},
+    "prerequisites": ["Linux"]
+  },
+  "Docker": {
+    "aliases": ["docker containers", "containerization", "dockerfile"],
+    "category": "DevOps & MLOps",
+    "related": {"Kubernetes": 0.8, "DevOps": 0.85},
+    "prerequisites": ["Linux"]
+  },
+  "Kubernetes": {
+    "aliases": ["k8s", "container orchestration", "kubectl"],
+    "category": "DevOps & MLOps",
+    "related": {"Docker": 0.85, "DevOps": 0.85},
+    "prerequisites": ["Docker"]
+  },
+  "CI/CD": {
+    "aliases": ["continuous integration", "continuous deployment", "ci cd", "deployment pipelines"],
+    "category": "DevOps & MLOps",
+    "related": {"GitHub Actions": 0.9, "DevOps": 0.85},
+    "prerequisites": ["Git"]
+  },
+  "GitHub Actions": {
+    "aliases": ["gh actions", "github ci"],
+    "category": "DevOps & MLOps",
+    "related": {"CI/CD": 0.9},
+    "prerequisites": ["Git"]
+  },
+  "Terraform": {
+    "aliases": ["iac", "infrastructure as code", "hashicorp terraform"],
+    "category": "DevOps & MLOps",
+    "related": {"Cloud Computing": 0.8, "DevOps": 0.85},
+    "prerequisites": ["Cloud Computing"]
+  },
+  "Linux": {
+    "aliases": ["linux administration", "ubuntu", "centos", "unix", "posix"],
+    "category": "DevOps & MLOps",
+    "related": {"Bash/Shell": 0.85},
+    "prerequisites": []
+  },
+  "MLOps": {
+    "aliases": ["machine learning operations", "ml operations", "model lifecycle"],
+    "category": "DevOps & MLOps",
+    "related": {"MLflow": 0.85, "Docker": 0.8, "Model Deployment": 0.85},
+    "prerequisites": ["Machine Learning", "Docker", "DevOps"]
+  },
+  "MLflow": {
+    "aliases": ["mlflow tracking", "experiment tracking"],
+    "category": "DevOps & MLOps",
+    "related": {"Weights & Biases": 0.85, "MLOps": 0.9},
+    "prerequisites": ["Machine Learning"]
+  },
+  "Weights & Biases": {
+    "aliases": ["wandb", "w&b"],
+    "category": "DevOps & MLOps",
+    "related": {"MLflow": 0.85, "MLOps": 0.85},
+    "prerequisites": ["Deep Learning"]
+  },
+  "Kubeflow": {
+    "aliases": ["kubeflow pipelines"],
+    "category": "DevOps & MLOps",
+    "related": {"Kubernetes": 0.85, "MLOps": 0.85},
+    "prerequisites": ["Kubernetes", "MLOps"]
+  },
+  "Model Deployment": {
+    "aliases": ["serving models", "ml inference", "model serving"],
+    "category": "DevOps & MLOps",
+    "related": {"FastAPI": 0.8, "Docker": 0.8, "MLOps": 0.85},
+    "prerequisites": ["Docker", "REST APIs"]
+  },
+  "Triton Inference Server": {
+    "aliases": ["triton", "nvidia triton"],
+    "category": "DevOps & MLOps",
+    "related": {"Model Deployment": 0.85, "ONNX": 0.8},
+    "prerequisites": ["Model Deployment"]
+  },
+  "ONNX": {
+    "aliases": ["onnx runtime", "open neural network exchange"],
+    "category": "DevOps & MLOps",
+    "related": {"Model Deployment": 0.8, "PyTorch": 0.7},
+    "prerequisites": ["Deep Learning"]
+  },
+  "FastAPI": {
+    "aliases": ["fastapi framework", "fast api"],
+    "category": "Web Development",
+    "related": {"Flask": 0.85, "REST APIs": 0.9},
+    "prerequisites": ["Python", "REST APIs"]
+  },
+  "Flask": {
+    "aliases": ["flask framework", "flask api"],
+    "category": "Web Development",
+    "related": {"FastAPI": 0.85, "Django": 0.75},
+    "prerequisites": ["Python", "REST APIs"]
+  },
+  "Django": {
+    "aliases": ["django framework", "django rest framework", "drf"],
+    "category": "Web Development",
+    "related": {"Flask": 0.75},
+    "prerequisites": ["Python", "SQL"]
+  },
+  "REST APIs": {
+    "aliases": ["restful api", "rest api", "web apis", "http apis", "json api"],
+    "category": "Web Development",
+    "related": {"FastAPI": 0.85, "GraphQL": 0.75},
+    "prerequisites": []
+  },
+  "GraphQL": {
+    "aliases": ["graphql api", "apollo graphql"],
+    "category": "Web Development",
+    "related": {"REST APIs": 0.75},
+    "prerequisites": ["REST APIs"]
+  },
+  "React": {
+    "aliases": ["reactjs", "react.js", "react framework"],
+    "category": "Web Development",
+    "related": {"Next.js": 0.9, "JavaScript": 0.9},
+    "prerequisites": ["JavaScript", "HTML/CSS"]
+  },
+  "Next.js": {
+    "aliases": ["nextjs", "next.js framework"],
+    "category": "Web Development",
+    "related": {"React": 0.95},
+    "prerequisites": ["React", "TypeScript"]
+  },
+  "Node.js": {
+    "aliases": ["nodejs", "node", "node js"],
+    "category": "Web Development",
+    "related": {"Express.js": 0.9, "JavaScript": 0.9},
+    "prerequisites": ["JavaScript"]
+  },
+  "Express.js": {
+    "aliases": ["express", "expressjs"],
+    "category": "Web Development",
+    "related": {"Node.js": 0.95},
+    "prerequisites": ["Node.js"]
+  },
+  "HTML/CSS": {
+    "aliases": ["html", "css", "html5", "css3", "frontend styling"],
+    "category": "Web Development",
+    "related": {"Tailwind CSS": 0.85},
+    "prerequisites": []
+  },
+  "Tailwind CSS": {
+    "aliases": ["tailwind", "tailwindcss"],
+    "category": "Web Development",
+    "related": {"HTML/CSS": 0.9},
+    "prerequisites": ["HTML/CSS"]
+  },
+  "WebSockets": {
+    "aliases": ["websocket", "real-time sockets", "socket.io"],
+    "category": "Web Development",
+    "related": {"REST APIs": 0.7},
+    "prerequisites": ["REST APIs"]
+  },
+  "Streamlit": {
+    "aliases": ["streamlit app", "streamlit dashboard"],
+    "category": "Web Development",
+    "related": {"FastAPI": 0.6, "Data Visualization": 0.7},
+    "prerequisites": ["Python"]
+  },
+  "System Design": {
+    "aliases": ["software architecture", "high level design", "distributed systems", "scalable architecture"],
+    "category": "Soft Skills & Engineering Practices",
+    "related": {"Cloud Architecture": 0.8},
+    "prerequisites": ["Object-Oriented Programming"]
+  },
+  "Communication": {
+    "aliases": ["effective communication", "verbal communication", "written communication", "presentation skills", "strong communication"],
+    "category": "Soft Skills & Engineering Practices",
+    "related": {"Collaboration": 0.85},
+    "prerequisites": []
+  },
+  "Problem Solving": {
+    "aliases": ["analytical thinking", "critical thinking", "troubleshooting", "debugging"],
+    "category": "Soft Skills & Engineering Practices",
+    "related": {"Data Structures & Algorithms": 0.7},
+    "prerequisites": []
+  },
+  "Agile/Scrum": {
+    "aliases": ["agile methodology", "scrum", "sprints", "kanban"],
+    "category": "Soft Skills & Engineering Practices",
+    "related": {"Collaboration": 0.8},
+    "prerequisites": []
+  },
+  "Collaboration": {
+    "aliases": ["teamwork", "cross-functional collaboration", "partnering"],
+    "category": "Soft Skills & Engineering Practices",
+    "related": {"Communication": 0.85},
+    "prerequisites": []
+  },
+  "Code Review": {
+    "aliases": ["code reviews", "peer review", "pr reviews"],
+    "category": "Soft Skills & Engineering Practices",
+    "related": {"Git": 0.8},
+    "prerequisites": ["Git"]
+  },
+  "Project Management": {
+    "aliases": ["delivery management", "technical project management", "jira"],
+    "category": "Soft Skills & Engineering Practices",
+    "related": {"Agile/Scrum": 0.85},
+    "prerequisites": []
+  }
+}
